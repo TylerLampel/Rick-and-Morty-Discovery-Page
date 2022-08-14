@@ -3,19 +3,12 @@ import './App.css';
 import CharacterCard from "./CharacterCard";
 
 function App() {
-
   const [characters, setCharacters] = useState([]);
 
 
     fetch("http://localhost:3000/characters/")
     .then((resp)=> resp.json())
     .then((characters) => console.log(characters, "characters"))
-
-  useEffect(()=> {
-    fetch("https://rickandmortyapi.com/api/character")
-    .then((resp) => resp.json())
-    .then((data) => (console.log(data)))
-  }, [])
 
   return (
     <div className="App">
