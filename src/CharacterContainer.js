@@ -1,5 +1,6 @@
 import React from "react";
 import CharacterCard from "./CharacterCard";
+import NewCharacterForm from "./NewCharacterForm";
 
 function CharacterContainer({ characters }) {
 
@@ -11,7 +12,10 @@ function CharacterContainer({ characters }) {
     ))
 
     return (
-        <div id="character-collection">{characterCards}</div>
+        <div id="character-collection">
+            <NewCharacterForm />
+            {characterCards}
+        </div>
     )
     
 }
