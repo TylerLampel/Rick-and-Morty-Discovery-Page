@@ -1,7 +1,8 @@
 import React from "react";
 import LocationCard from "./LocationCard";
+import NewLocationForm from "./NewLocationForm";
 
-function LocationsContainer({ locations }) {
+function LocationsContainer({ locations, handleAddNewLocation, handleDeleteLocation }) {
 
 
     const locationCards = locations.map((location) => (
@@ -12,7 +13,10 @@ function LocationsContainer({ locations }) {
     ))
 
     return (
-        <div id="location-collection">{locationCards}</div>
+        <div id="location-collection">
+            <NewLocationForm />
+            {locationCards}
+            </div>
     )
 }
 

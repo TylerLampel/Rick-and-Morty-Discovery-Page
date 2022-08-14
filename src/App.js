@@ -56,7 +56,7 @@ function App() {
 
       function handleRemoveLocation(id) {
         const updatedLocations = locations.filter(location => location.id !== id)
-        setlocations(updatedLocations)
+        setLocations(updatedLocations)
       }
 
       function handleDeleteLocation(id) {

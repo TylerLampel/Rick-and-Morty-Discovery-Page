@@ -1,15 +1,19 @@
 import React from "react";
 
-function LocationCard({ location }){
+function LocationCard({ location, handleDeleteLocation }){
 
 
     return (
         <div>
-            <h2>{location.name}</h2>
-                <p>Type: {location.type}</p>
-                <p>Dimension: {location.dimension}</p>
-                <img src= {location.image} alt={location.name} height="300px" width="300px"/>
+            <br />
+            <br />
             
+            <img src= {location.image} alt={location.name} height="300px" width="300px"/>
+            <h2>{location.name}</h2>
+            <p>Type: {location.type}</p>
+            <p>Dimension: {location.dimension}</p>
+                <br />
+            <button onClick= {() => handleDeleteLocation(location.id)} className="del-btn">Delete Location</button>
         </div>
     )
 }
