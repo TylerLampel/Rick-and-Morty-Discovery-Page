@@ -1,0 +1,67 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Rick Sanchez",
+            "species": "Human",
+            "gender": "Male",
+            "status": "Alive",
+            "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+            "origin": "Earth (C-137)"
+        },
+        {
+            "id": 2,
+            "name": "Morty Smith",
+            "species": "Human",
+            "gender": "Male",
+            "status": "Alive",
+            "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+            "origin": "unknown"
+        },
+        {
+            "id": 3,
+            "name": "Summer Smith",
+            "species": "Human",
+            "gender": "Female",
+            "status": "Alive",
+            "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+            "origin": "Earth (Replacement Dimension)"
+        },
+        {
+            "id": 4,
+            "name": "Beth Smith",
+            "species": "Human",
+            "gender": "Female",
+            "status": "Alive",
+            "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+            "origin": "Earth (C-137)"
+        },
+        {
+            "id": 5,
+            "name": "Jerry Smith",
+            "species": "Human",
+            "gender": "Male",
+            "status": "Alive",
+            "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+            "origin": "Earth (Replacement Dimension)"
+        },
+        {
+            "id": 6,
+            "name": "Morty Smith",
+            "species": "Human",
+            "gender": "",
+            "status": "Alive",
+            "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+            "origin": "Earth (C-137)"
+        },
+        {
+            "id": 7,
+            "name": "Morty Smith",
+            "species": "Human",
+            "gender": "",
+            "status": "Alive",
+            "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+            "origin": "Earth (C-137)"
+        }
+    ]
+}
