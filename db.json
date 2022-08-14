@@ -386,7 +386,49 @@
     ],
     "locations":[
         {
-            "id":1
+            "id":1,
+            "name":"Earth (C-137)",
+            "type":"Planet",
+            "dimension":"Dimension C-137",
+            "image": "./c137Earth.webp"
+        },
+        {
+            "id":2,
+            "name":"Citadel of Ricks",
+            "type":"Space station",
+            "dimension":"unknown",
+            "image": "./S3e7_Citadel_reconstruction.webp"
+        },
+        {
+            "id":3,
+            "name":"Anatomy Park",
+            "type":"Microverse",
+            "dimension":"Dimension C-137",
+            "image": "./Anatomy_Park_7.webp"
+        },{
+            "id":4,
+            "name":"Post-Apocalyptic Earth",
+            "type":"Planet",
+            "dimension":"Post-Apocalyptic Dimension",
+            "image": "./S3e2_suburban_hell.webp"
+        },{
+            "id":5,
+            "name":"Purge Planet",
+            "type":"Planet",
+            "dimension":"Replacement Dimension",
+            "image": "./Purge_Planet.webp"
+        },{
+            "id":6,
+            "name":"Bird World",
+            "type":"Planet",
+            "dimension":"unknown",
+            "image": "./S2e5_bird_world.webp"
+        },{
+            "id":7,
+            "name":"Earth (Replacement Dimension)",
+            "type":"Planet",
+            "dimension":"Replacement Dimension",
+            "image": "./c137Earth.webp"
         }
     ]
 }

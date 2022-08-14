@@ -5,32 +5,35 @@ import CharacterContainer from "./CharacterContainer";
 import NavBar from "./NavBar";
 import EpisodesContainer from "./EpisodesContainer";
 import LocationsContainer from "./LocationsContainer";
+import Header from "./Header";
 
 function App() {
   const [characters, setCharacters] = useState([]);
   const [locations, setLocations] = useState([]);
 
 
-    useEffect(() => {
+  useEffect(()=> {
       fetch("http://localhost:3000/characters/")
         .then((resp)=> resp.json())
         .then((characters) => setCharacters(characters))
-    },[])
+      },[])
 
-    useEffect(()=> {
-      fetch("https://rickandmortyapi.com/api/location")
+      useEffect(()=> {
+      fetch("http://localhost:3000/locations/")
           .then(resp => resp.json())
-          .then(locations => console.log(locations))
-  },[])
+          .then(locations => setLocations(locations))
+      },[])
+
+      function handleAddNewCharacter(character){
+        setCharacters({character, ...characters})
+      }
 
   return (
     <div className="App">
-        <header>
-          <img src= "./rick-morty-collection-banner_1400x.webp" />
-        </header>
+        <Header />
         <NavBar />
         <Route exact path="/Characters">
-          <CharacterContainer characters={characters} />
+          <CharacterContainer handleAddNewCharacter={handleAddNewCharacter} characters={characters} />
         </Route>
         <Route exact path="/Locations">
           <LocationsContainer locations={locations} />
