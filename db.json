@@ -111,14 +111,6 @@
       "gender": "Male",
       "status": "Dead",
       "image": "https://rickandmortyapi.com/api/character/avatar/119.jpeg"
-    },
-    {
-      "name": "Antenna Morty",
-      "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
-      "gender": "Male",
-      "species": "Human",
-      "status": "Alive",
-      "id": 15
     }
   ],
   "locations": [

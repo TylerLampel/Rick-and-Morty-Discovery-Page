@@ -41,7 +41,7 @@ function App() {
       }
 
       function handleDeleteCharacter(id) {
-        fetch(`"http://localhost:3000/characters/"${id}`, {
+        fetch(`http://localhost:3000/characters/${id}`, {
           method: "DELETE",
       }).then((resp)=> {
         if(resp.status === 200) {
