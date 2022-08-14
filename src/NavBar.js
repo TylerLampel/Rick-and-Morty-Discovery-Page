@@ -37,7 +37,7 @@ function NavBar() {
                 Locations
             </NavLink>
             <NavLink
-            to="/Locations"
+            to="/Episodes"
             exact
             style={linkStyles}
             activeStyle={{

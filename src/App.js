@@ -42,12 +42,13 @@ function App() {
         <Route exact path="/Characters">
           <CharacterContainer handleAddNewCharacter={handleAddNewCharacter} characters={characters} />
         </Route>
-        <Route exact path="/Locations">
-          <LocationsContainer locations={locations} />
-        </Route>
         <Route exact path="/Episodes">
           <EpisodesContainer episodes={episodes} />
         </Route>
+        <Route exact path="/Locations">
+          <LocationsContainer locations={locations} />
+        </Route>
+        
     </div>
   );
 }
