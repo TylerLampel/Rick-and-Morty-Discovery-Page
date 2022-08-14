@@ -64,7 +64,7 @@ function NewCharacterForm({handleAddNewCharacter}) {
         />
         <br />
         <input
-          value={formData.image}
+          value={formData.gender}
           onChange={handleChange}
           type="text"
           name="gender"
@@ -73,7 +73,7 @@ function NewCharacterForm({handleAddNewCharacter}) {
         />
         <br />
         <input
-          value={formData.image}
+          value={formData.species}
           onChange={handleChange}
           type="text"
           name="species"
@@ -82,7 +82,7 @@ function NewCharacterForm({handleAddNewCharacter}) {
         />
         <br />
         <input
-          value={formData.image}
+          value={formData.status}
           onChange={handleChange}
           type="text"
           name="status"
@@ -93,7 +93,7 @@ function NewCharacterForm({handleAddNewCharacter}) {
         <input
           type="submit"
           name="submit"
-          value="Create New Toy"
+          value="Create New Character"
           className="submit"
         />
       </form>

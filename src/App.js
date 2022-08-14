@@ -35,12 +35,27 @@ function App() {
         setCharacters({character, ...characters})
       }
 
+      function handleRemoveCharacter(id) {
+        const updatedCharacters = characters.filter(character => character.id !== id)
+        setCharacters(updatedCharacters)
+      }
+
+      function handleDeleteCharacter(id) {
+        fetch(`"http://localhost:3000/characters/"${id}`, {
+          method: "DELETE",
+      }).then((resp)=> {
+        if(resp.status === 200) {
+          handleRemoveCharacter(id)
+        }
+      })
+    }
+
   return (
     <div className="App">
         <Header />
         <NavBar />
         <Route exact path="/Characters">
-          <CharacterContainer handleAddNewCharacter={handleAddNewCharacter} characters={characters} />
+          <CharacterContainer handleAddNewCharacter={handleAddNewCharacter} characters={characters} handleDeleteCharacter={handleDeleteCharacter} />
         </Route>
         <Route exact path="/Episodes">
           <EpisodesContainer episodes={episodes} />

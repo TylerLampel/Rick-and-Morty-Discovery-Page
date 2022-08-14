@@ -1,472 +1,483 @@
 {
-    "characters": [
-        {
-            "id": 1,
-            "name": "Rick Sanchez",
-            "species": "Human",
-            "gender": "Male",
-            "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"  
-        },
-        {
-            "id": 2,
-            "name": "Morty Smith",
-            "species": "Human",
-            "gender": "Male",
-            "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"     
-        },
-        {
-            "id": 3,
-            "name": "Summer Smith",
-            "species": "Human",
-            "gender": "Female",
-            "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"        
-        },
-        {
-            "id": 4,
-            "name": "Beth Smith",
-            "species": "Human",
-            "gender": "Female",
-            "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"           
-        },
-        {
-            "id": 5,
-            "name": "Jerry Smith",
-            "species": "Human",
-            "gender": "Male",
-            "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"            
-
-        },
-        {
-            "id": 6,
-            "name": "Agency Director",
-            "species": "Human",
-            "gender": "Male",
-            "status": "Dead",
-            "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg"           
-        },
-        {
-            "id": 7,
-            "name": "Alien Morty",
-            "species": "Alien",
-            "gender": "Male",
-            "status": "unknown",
-            "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg"
-        },
-        {
-            "id": 8,
-            "name": "Alien Rick",
-            "species": "Alien",
-            "gender": "Male",
-            "status": "unknown",
-            "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg"     
-        },
-        {
-            "id": 9,
-            "name": "Ants in my Eyes Johnson",
-            "species": "Human",
-            "gender": "Male",
-            "status": "unknown",
-            "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg"           
-        },
-        {
-            "id": 10,
-            "name": "Birdperson",
-            "species": "Alien",
-            "gender": "Male",
-            "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/47.jpeg"
-        },
-        {
-            "id": 11,
-            "name": "Commander Rick",
-            "species": "Alien",
-            "gender": "Male",
-            "status": "Dead",
-            "image": "https://rickandmortyapi.com/api/character/avatar/69.jpeg"
-        },
-        {
-            "id": 12,
-            "name": "Dr. Glip-Glop",
-            "species": "Alien",
-            "gender": "Male",
-            "status": "Dead",
-            "image": "https://rickandmortyapi.com/api/character/avatar/105.jpeg"
-        },
-        {
-            "id": 13,
-            "name": "Evil Morty",
-            "species": "Human",
-            "gender": "Male",
-            "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/118.jpeg"  
-        },
-        {
-            "id": 14,
-            "name": "Evil Rick",
-            "species": "Humanoid",
-            "gender": "Male",
-            "status": "Dead",
-            "image": "https://rickandmortyapi.com/api/character/avatar/119.jpeg"  
-        }
-    ],
-    "locations":[
-        {
-            "id":1,
-            "name":"Earth (C-137)",
-            "type":"Planet",
-            "dimension":"Dimension C-137",
-            "image": "./c137Earth.webp"
-        },
-        {
-            "id":2,
-            "name":"Citadel of Ricks",
-            "type":"Space station",
-            "dimension":"unknown",
-            "image": "./S3e7_Citadel_reconstruction.webp"
-        },
-        {
-            "id":3,
-            "name":"Anatomy Park",
-            "type":"Microverse",
-            "dimension":"Dimension C-137",
-            "image": "./Anatomy_Park_7.webp"
-        },{
-            "id":4,
-            "name":"Post-Apocalyptic Earth",
-            "type":"Planet",
-            "dimension":"Post-Apocalyptic Dimension",
-            "image": "./S3e2_suburban_hell.webp"
-        },{
-            "id":5,
-            "name":"Purge Planet",
-            "type":"Planet",
-            "dimension":"Replacement Dimension",
-            "image": "./Purge_Planet.webp"
-        },{
-            "id":6,
-            "name":"Bird World",
-            "type":"Planet",
-            "dimension":"unknown",
-            "image": "./S2e5_bird_world.webp"
-        },{
-            "id":7,
-            "name":"Earth (Replacement Dimension)",
-            "type":"Planet",
-            "dimension":"Replacement Dimension",
-            "image": "./c137Earth.webp"
-        }
-    ],
-    "episodes": [
-        {
-            "id": 1,
-            "episode":"S01E01",
-            "name": "Pilot",
-            "image": "./S1e1_Rick-and-morty.webp"
-        },
-        {
-            "id": 2,
-            "episode":"S01E02",
-            "name": "Lawnmower Dog",
-            "image": "./Lawnmower_Dog.webp"
-        },
-        {
-            "id": 3,
-            "episode":"S01E03",
-            "name": "Anatomy Park",
-            "image": "./Anatomy_Park_7.webp"
-        },
-        {
-            "id": 4,
-            "episode":"S01E04",
-            "name": "M. Night Shaym-Aliens!",
-            "image": "./download.jpg"
-        },
-        {
-            "id": 5,
-            "episode":"S01E05",
-            "name": "Meeseeks and Destroy",
-            "image": "./4469044-rick and morty s01e04 - m. night shaym-aliens!_mar 12, 2015, 11.49.46 am.jpeg"
-        },
-        {
-            "id": 6,
-            "episode":"S01E06",
-            "name": "Rick Potion #9",
-            "image": "./c61dbad14ca7237a6275e2a9e4c6b86c.jpg"
-        },
-        {
-            "id": 7,
-            "episode":"S01E07",
-            "name": "Raising Gazorpazorp",
-            "image": "./download (1).jpg"
-        },
-        {
-            "id": 8,
-            "episode":"S01E08",
-            "name": "Rixty Minutes",
-            "image": ".public/rickandmorty_ep008_002_Two_Brothers.jpg"
-        },
-        {
-            "id": 9,
-            "episode":"S01E09",
-            "name": "Something Ricked This Way Comes",
-            "image": "./MV5BNDIzNDEwOGQtNTE5Mi00ZWM0LWJmYTQtZTk0ZTAzM2Q2ZWZkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
-        },
-        {
-            "id": 10,
-            "episode":"S01E10",
-            "name": "Close Rick-counters of the Rick Kind",
-            "image": "./Amfhioopko7i680t2kzx.webp"
-        },
-        {
-            "id": 11,
-            "episode":"S01E11",
-            "name": "Ricksy Business",
-            "image": "./rick_and_morty_s01e11.jpg"
-        },
-        {
-            "id": 12,
-            "episode":"S02E01",
-            "name": "A Rickle in Time",
-            "image": "./A_Rickle_in_Time.webp"
-        },
-        {
-            "id": 13,
-            "episode":"S02E02",
-            "name": "Mortynight Run",
-            "image": ""
-        },
-        {
-            "id": 14,
-            "episode":"S02E03",
-            "name": "Auto Erotic Assimilation",
-            "image": ""
-        },
-        {
-            "id": 15,
-            "episode":"S02E04",
-            "name": "Total Rickall",
-            "image": ""
-        },
-        {
-            "id": 16,
-            "episode":"S02E05",
-            "name": "Get Schwifty",
-            "image": ""
-        },
-        {
-            "id": 17,
-            "episode":"S02E06",
-            "name": "The Ricks Must Be Crazy",
-            "image": ""
-        },
-        {
-            "id": 18,
-            "episode":"S02E07",
-            "name": "Big Trouble in Little Sanchez",
-            "image": ""
-        },
-        {
-            "id": 19,
-            "episode":"S02E08",
-            "name": "Interdimensional Cable 2: Tempting Fate",
-            "image": ""
-        },
-        {
-            "id": 20,
-            "episode":"S02E09",
-            "name": "Look Who's Purging Now",
-            "image": ""
-        },
-        {
-            "id": 21,
-            "episode":"S02E10",
-            "name": "The Wedding Squanchers",
-            "image": ""
-        },
-        {
-            "id": 22,
-            "episode":"S03E01",
-            "name": "The Rickshank Rickdemption",
-            "image": ""
-        },
-        {
-            "id": 23,
-            "episode":"S03E02",
-            "name": "Rickmancing the Stone",
-            "image": ""
-        },
-        {
-            "id": 24,
-            "episode":"S03E03",
-            "name": "Pickle Rick",
-            "image": ""
-        },
-        {
-            "id": 25,
-            "episode":"S03E04",
-            "name": "Vindicators 3: The Return of Worldender",
-            "image": ""
-        },
-        {
-            "id": 26,
-            "episode":"S03E05",
-            "name": "The Whirly Dirly Conspiracy",
-            "image": ""
-        },
-        {
-            "id": 27,
-            "episode":"S03E06",
-            "name": "Rest and Ricklaxation",
-            "image": ""
-        },
-        {
-            "id": 28,
-            "episode":"S03E07",
-            "name": "The Ricklantis Mixup",
-            "image": ""
-        },
-        {
-            "id": 29,
-            "episode":"S03E08",
-            "name": "Morty's Mind Blowers",
-            "image": ""
-        },
-        {
-            "id": 30,
-            "episode":"S03E09",
-            "name": "The ABC's of Beth",
-            "image": ""
-        },
-        {
-            "id": 31,
-            "episode":"S03E10",
-            "name": "The Rickchurian Mortydate",
-            "image": ""
-        },
-        {
-            "id": 32,
-            "episode":"S04E1",
-            "name": "Edge of Tomorty: Rick, Die, Rickpeat",
-            "image": ""
-        },
-        {
-            "id": 33,
-            "episode":"S04E02",
-            "name": "The Old Man and the Seat",
-            "image": ""
-        },
-        {
-            "id": 34,
-            "episode":"S04E03",
-            "name": "One Crew Over the Crewcoo's Morty",
-            "image": ""
-        },
-        {
-            "id": 35,
-            "episode":"S04E04",
-            "name": "Claw and Hoarder: Special Ricktim's Morty",
-            "image": ""
-        },
-        {
-            "id": 36,
-            "episode":"S04E05",
-            "name": "Rattlestar Ricklactica",
-            "image": ""
-        },
-        {
-            "id": 37,
-            "episode":"S04E06",
-            "name": "Never Ricking Morty",
-            "image": ""
-        },
-        {
-            "id": 38,
-            "episode":"S04E07",
-            "name": "Promortyus",
-            "image": ""
-        },
-        {
-            "id": 39,
-            "episode":"S04E08",
-            "name": "The Vat of Acid Episode",
-            "image": ""
-        },
-        {
-            "id": 40,
-            "episode":"S04E09",
-            "name": "Childrick of Mort",
-            "image": ""
-        },
-        {
-            "id": 41,
-            "episode":"S04E10",
-            "name": "Star Mort: Rickturn of the Jerri",
-            "image": ""
-        },
-        {
-            "id": 42,
-            "episode":"S05E01",
-            "name": "Mort Dinner Rick Andre",
-            "image": ""
-        },
-        {
-            "id": 43,
-            "episode":"S05E02",
-            "name": "Mortyplicity",
-            "image": ""
-        },
-        {
-            "id": 44,
-            "episode":"S05E03",
-            "name": "A Rickconvenient Mort",
-            "image": ""
-        },
-        {
-            "id": 45,
-            "episode":"S05E04",
-            "name": "Rickdependence Spray",
-            "image": ""
-        },
-        {
-            "id": 46,
-            "episode":"S05E05",
-            "name": "Amortycan Grickfitti",
-            "image": ""
-        },
-        {
-            "id": 47,
-            "episode":"S05E06",
-            "name": "Rick & Morty's Thanksploitation Spectacular",
-            "image": ""
-        },
-        {
-            "id": 48,
-            "episode":"S05E07",
-            "name": "Gotron Jerrysis Rickvangelion",
-            "image": ""
-        },
-        {
-            "id": 49,
-            "episode":"S05E08",
-            "name": "Rickternal Friendshine of the Spotless Mort",
-            "image": ""
-        },
-        {
-            "id": 50,
-            "episode":"S05E09",
-            "name": "Forgetting Sarick Mortshall",
-            "image": ""
-        },
-        {
-            "id": 51,
-            "episode":"S05E10",
-            "name": "Rickmurai Jack",
-            "image": ""
-        }
-    ]
+  "characters": [
+    {
+      "id": 1,
+      "name": "Rick Sanchez",
+      "species": "Human",
+      "gender": "Male",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Morty Smith",
+      "species": "Human",
+      "gender": "Male",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Summer Smith",
+      "species": "Human",
+      "gender": "Female",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Beth Smith",
+      "species": "Human",
+      "gender": "Female",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Jerry Smith",
+      "species": "Human",
+      "gender": "Male",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Agency Director",
+      "species": "Human",
+      "gender": "Male",
+      "status": "Dead",
+      "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Alien Morty",
+      "species": "Alien",
+      "gender": "Male",
+      "status": "unknown",
+      "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Alien Rick",
+      "species": "Alien",
+      "gender": "Male",
+      "status": "unknown",
+      "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Ants in my Eyes Johnson",
+      "species": "Human",
+      "gender": "Male",
+      "status": "unknown",
+      "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Birdperson",
+      "species": "Alien",
+      "gender": "Male",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/47.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Commander Rick",
+      "species": "Alien",
+      "gender": "Male",
+      "status": "Dead",
+      "image": "https://rickandmortyapi.com/api/character/avatar/69.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "Dr. Glip-Glop",
+      "species": "Alien",
+      "gender": "Male",
+      "status": "Dead",
+      "image": "https://rickandmortyapi.com/api/character/avatar/105.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "Evil Morty",
+      "species": "Human",
+      "gender": "Male",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/118.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "Evil Rick",
+      "species": "Humanoid",
+      "gender": "Male",
+      "status": "Dead",
+      "image": "https://rickandmortyapi.com/api/character/avatar/119.jpeg"
+    },
+    {
+      "name": "Antenna Morty",
+      "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
+      "gender": "Male",
+      "species": "Human",
+      "status": "Alive",
+      "id": 15
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Earth (C-137)",
+      "type": "Planet",
+      "dimension": "Dimension C-137",
+      "image": "./c137Earth.webp"
+    },
+    {
+      "id": 2,
+      "name": "Citadel of Ricks",
+      "type": "Space station",
+      "dimension": "unknown",
+      "image": "./S3e7_Citadel_reconstruction.webp"
+    },
+    {
+      "id": 3,
+      "name": "Anatomy Park",
+      "type": "Microverse",
+      "dimension": "Dimension C-137",
+      "image": "./Anatomy_Park_7.webp"
+    },
+    {
+      "id": 4,
+      "name": "Post-Apocalyptic Earth",
+      "type": "Planet",
+      "dimension": "Post-Apocalyptic Dimension",
+      "image": "./S3e2_suburban_hell.webp"
+    },
+    {
+      "id": 5,
+      "name": "Purge Planet",
+      "type": "Planet",
+      "dimension": "Replacement Dimension",
+      "image": "./Purge_Planet.webp"
+    },
+    {
+      "id": 6,
+      "name": "Bird World",
+      "type": "Planet",
+      "dimension": "unknown",
+      "image": "./S2e5_bird_world.webp"
+    },
+    {
+      "id": 7,
+      "name": "Earth (Replacement Dimension)",
+      "type": "Planet",
+      "dimension": "Replacement Dimension",
+      "image": "./c137Earth.webp"
+    }
+  ],
+  "episodes": [
+    {
+      "id": 1,
+      "episode": "S01E01",
+      "name": "Pilot",
+      "image": "./S1e1_Rick-and-morty.webp"
+    },
+    {
+      "id": 2,
+      "episode": "S01E02",
+      "name": "Lawnmower Dog",
+      "image": "./Lawnmower_Dog.webp"
+    },
+    {
+      "id": 3,
+      "episode": "S01E03",
+      "name": "Anatomy Park",
+      "image": "./Anatomy_Park_7.webp"
+    },
+    {
+      "id": 4,
+      "episode": "S01E04",
+      "name": "M. Night Shaym-Aliens!",
+      "image": "./download.jpg"
+    },
+    {
+      "id": 5,
+      "episode": "S01E05",
+      "name": "Meeseeks and Destroy",
+      "image": "./4469044-rick and morty s01e04 - m. night shaym-aliens!_mar 12, 2015, 11.49.46 am.jpeg"
+    },
+    {
+      "id": 6,
+      "episode": "S01E06",
+      "name": "Rick Potion #9",
+      "image": "./c61dbad14ca7237a6275e2a9e4c6b86c.jpg"
+    },
+    {
+      "id": 7,
+      "episode": "S01E07",
+      "name": "Raising Gazorpazorp",
+      "image": "./download (1).jpg"
+    },
+    {
+      "id": 8,
+      "episode": "S01E08",
+      "name": "Rixty Minutes",
+      "image": "./rickandmorty_ep008_002_Two_Brothers.jpg"
+    },
+    {
+      "id": 9,
+      "episode": "S01E09",
+      "name": "Something Ricked This Way Comes",
+      "image": "./MV5BNDIzNDEwOGQtNTE5Mi00ZWM0LWJmYTQtZTk0ZTAzM2Q2ZWZkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+    },
+    {
+      "id": 10,
+      "episode": "S01E10",
+      "name": "Close Rick-counters of the Rick Kind",
+      "image": "./Amfhioopko7i680t2kzx.webp"
+    },
+    {
+      "id": 11,
+      "episode": "S01E11",
+      "name": "Ricksy Business",
+      "image": "./rick_and_morty_s01e11.jpg"
+    },
+    {
+      "id": 12,
+      "episode": "S02E01",
+      "name": "A Rickle in Time",
+      "image": "./A_Rickle_in_Time.webp"
+    },
+    {
+      "id": 13,
+      "episode": "S02E02",
+      "name": "Mortynight Run",
+      "image": "./s2e2.jpg"
+    },
+    {
+      "id": 14,
+      "episode": "S02E03",
+      "name": "Auto Erotic Assimilation",
+      "image": "./Auto_Erotic_Assimilation.webp"
+    },
+    {
+      "id": 15,
+      "episode": "S02E04",
+      "name": "Total Rickall",
+      "image": "./s2e4.jpg"
+    },
+    {
+      "id": 16,
+      "episode": "S02E05",
+      "name": "Get Schwifty",
+      "image": "./s2e5.jpg"
+    },
+    {
+      "id": 17,
+      "episode": "S02E06",
+      "name": "The Ricks Must Be Crazy",
+      "image": "./s2e6.jpg"
+    },
+    {
+      "id": 18,
+      "episode": "S02E07",
+      "name": "Big Trouble in Little Sanchez",
+      "image": "./s2e7.jpg"
+    },
+    {
+      "id": 19,
+      "episode": "S02E08",
+      "name": "Interdimensional Cable 2: Tempting Fate",
+      "image": "./s2e8.jpg"
+    },
+    {
+      "id": 20,
+      "episode": "S02E09",
+      "name": "Look Who's Purging Now",
+      "image": "./s2e9.png"
+    },
+    {
+      "id": 21,
+      "episode": "S02E10",
+      "name": "The Wedding Squanchers",
+      "image": "./s2e10.jpg"
+    },
+    {
+      "id": 22,
+      "episode": "S03E01",
+      "name": "The Rickshank Rickdemption",
+      "image": "./s3e1.jpg"
+    },
+    {
+      "id": 23,
+      "episode": "S03E02",
+      "name": "Rickmancing the Stone",
+      "image": "./s3e2.jpeg"
+    },
+    {
+      "id": 24,
+      "episode": "S03E03",
+      "name": "Pickle Rick",
+      "image": ""
+    },
+    {
+      "id": 25,
+      "episode": "S03E04",
+      "name": "Vindicators 3: The Return of Worldender",
+      "image": ""
+    },
+    {
+      "id": 26,
+      "episode": "S03E05",
+      "name": "The Whirly Dirly Conspiracy",
+      "image": ""
+    },
+    {
+      "id": 27,
+      "episode": "S03E06",
+      "name": "Rest and Ricklaxation",
+      "image": ""
+    },
+    {
+      "id": 28,
+      "episode": "S03E07",
+      "name": "The Ricklantis Mixup",
+      "image": ""
+    },
+    {
+      "id": 29,
+      "episode": "S03E08",
+      "name": "Morty's Mind Blowers",
+      "image": ""
+    },
+    {
+      "id": 30,
+      "episode": "S03E09",
+      "name": "The ABC's of Beth",
+      "image": ""
+    },
+    {
+      "id": 31,
+      "episode": "S03E10",
+      "name": "The Rickchurian Mortydate",
+      "image": ""
+    },
+    {
+      "id": 32,
+      "episode": "S04E1",
+      "name": "Edge of Tomorty: Rick, Die, Rickpeat",
+      "image": ""
+    },
+    {
+      "id": 33,
+      "episode": "S04E02",
+      "name": "The Old Man and the Seat",
+      "image": ""
+    },
+    {
+      "id": 34,
+      "episode": "S04E03",
+      "name": "One Crew Over the Crewcoo's Morty",
+      "image": ""
+    },
+    {
+      "id": 35,
+      "episode": "S04E04",
+      "name": "Claw and Hoarder: Special Ricktim's Morty",
+      "image": ""
+    },
+    {
+      "id": 36,
+      "episode": "S04E05",
+      "name": "Rattlestar Ricklactica",
+      "image": ""
+    },
+    {
+      "id": 37,
+      "episode": "S04E06",
+      "name": "Never Ricking Morty",
+      "image": ""
+    },
+    {
+      "id": 38,
+      "episode": "S04E07",
+      "name": "Promortyus",
+      "image": ""
+    },
+    {
+      "id": 39,
+      "episode": "S04E08",
+      "name": "The Vat of Acid Episode",
+      "image": ""
+    },
+    {
+      "id": 40,
+      "episode": "S04E09",
+      "name": "Childrick of Mort",
+      "image": ""
+    },
+    {
+      "id": 41,
+      "episode": "S04E10",
+      "name": "Star Mort: Rickturn of the Jerri",
+      "image": ""
+    },
+    {
+      "id": 42,
+      "episode": "S05E01",
+      "name": "Mort Dinner Rick Andre",
+      "image": ""
+    },
+    {
+      "id": 43,
+      "episode": "S05E02",
+      "name": "Mortyplicity",
+      "image": ""
+    },
+    {
+      "id": 44,
+      "episode": "S05E03",
+      "name": "A Rickconvenient Mort",
+      "image": ""
+    },
+    {
+      "id": 45,
+      "episode": "S05E04",
+      "name": "Rickdependence Spray",
+      "image": ""
+    },
+    {
+      "id": 46,
+      "episode": "S05E05",
+      "name": "Amortycan Grickfitti",
+      "image": ""
+    },
+    {
+      "id": 47,
+      "episode": "S05E06",
+      "name": "Rick & Morty's Thanksploitation Spectacular",
+      "image": ""
+    },
+    {
+      "id": 48,
+      "episode": "S05E07",
+      "name": "Gotron Jerrysis Rickvangelion",
+      "image": ""
+    },
+    {
+      "id": 49,
+      "episode": "S05E08",
+      "name": "Rickternal Friendshine of the Spotless Mort",
+      "image": ""
+    },
+    {
+      "id": 50,
+      "episode": "S05E09",
+      "name": "Forgetting Sarick Mortshall",
+      "image": ""
+    },
+    {
+      "id": 51,
+      "episode": "S05E10",
+      "name": "Rickmurai Jack",
+      "image": ""
+    }
+  ]
 }

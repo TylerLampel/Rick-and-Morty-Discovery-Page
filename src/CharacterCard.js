@@ -1,8 +1,8 @@
 import React from "react";
 
-function CharacterCard({ character }){
+function CharacterCard({ character, handleDeleteCharacter }){
 
-    const { name, species, gender, status, image, } = character
+    const { id, name, species, gender, status, image, } = character
 
 
     return (
@@ -16,6 +16,7 @@ function CharacterCard({ character }){
                 alt={name}
                 className="character-avatar"
                 />
+            <button onClick= {() => handleDeleteCharacter(id)} className="del-btn">Delete Character</button>
         </div>
     )
 }
