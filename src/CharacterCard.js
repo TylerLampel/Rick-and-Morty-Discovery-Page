@@ -2,12 +2,15 @@ import React from "react";
 
 function CharacterCard({ character }){
 
-    const { id, name, species, gender, status, image, origin, episode } = character
+    const { name, species, gender, status, image, } = character
 
 
     return (
         <div>
             <h2>{name}</h2>
+            <p>Gender: {gender}</p>
+            <p>Species: {species}</p>
+            <p>Status: {status}</p>
                 <img
                 src={image}
                 alt={name}

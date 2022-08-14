@@ -6,61 +6,7 @@
             "species": "Human",
             "gender": "Male",
             "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-            "origin": "Earth (C-137)",
-            "episode": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11",
-                "12",
-                "13",
-                "14",
-                "15",
-                "16",
-                "17",
-                "18",
-                "19",
-                "20",
-                "21",
-                "22",
-                "23",
-                "24",
-                "25",
-                "26",
-                "27",
-                "28",
-                "29",
-                "30",
-                "31",
-                "32",
-                "33",
-                "34",
-                "35",
-                "36",
-                "37",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45",
-                "46",
-                "47",
-                "48",
-                "49",
-                "50",
-                "51"
-            ]
+            "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"  
         },
         {
             "id": 2,
@@ -68,61 +14,7 @@
             "species": "Human",
             "gender": "Male",
             "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
-            "origin": "unknown",
-            "episode": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11",
-                "12",
-                "13",
-                "14",
-                "15",
-                "16",
-                "17",
-                "18",
-                "19",
-                "20",
-                "21",
-                "22",
-                "23",
-                "24",
-                "25",
-                "26",
-                "27",
-                "28",
-                "29",
-                "30",
-                "31",
-                "32",
-                "33",
-                "34",
-                "35",
-                "36",
-                "37",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45",
-                "46",
-                "47",
-                "48",
-                "49",
-                "50",
-                "51"
-            ]
+            "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"     
         },
         {
             "id": 3,
@@ -130,52 +22,7 @@
             "species": "Human",
             "gender": "Female",
             "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
-            "origin": "Earth (Replacement Dimension)",
-            "episode": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11",
-                "12",
-                "14",
-                "15",
-                "16",
-                "17",
-                "18",
-                "19",
-                "20",
-                "21",
-                "22",
-                "23",
-                "24",
-                "25",
-                "26",
-                "27",
-                "29",
-                "30",
-                "31",
-                "32",
-                "33",
-                "34",
-                "35",
-                "36",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45",
-                "46",
-                "47",
-                "48",
-                "49",
-                "51"
-        ]
+            "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"        
         },
         {
             "id": 4,
@@ -183,52 +30,7 @@
             "species": "Human",
             "gender": "Female",
             "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
-            "origin": "Earth (C-137)",
-            "episode": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11",
-                "12",
-                "14",
-                "15",
-                "16",
-                "18",
-                "19",
-                "20",
-                "21",
-                "22",
-                "23",
-                "24",
-                "25",
-                "26",
-                "27",
-                "28",
-                "29",
-                "30",
-                "31",
-                "32",
-                "33",
-                "34",
-                "35",
-                "36",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45",
-                "46",
-                "47",
-                "48",
-                "49",
-                "51"
-            ]
+            "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"           
         },
         {
             "id": 5,
@@ -236,49 +38,7 @@
             "species": "Human",
             "gender": "Male",
             "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
-            "origin": "Earth (Replacement Dimension)",
-            "episode": [
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11",
-                "12",
-                "13",
-                "14",
-                "15",
-                "16",
-                "18",
-                "19",
-                "20",
-                "21",
-                "22",
-                "23",
-                "26",
-                "29",
-                "30",
-                "31",
-                "32",
-                "33",
-                "35",
-                "36",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45",
-                "46",
-                "47",
-                "48",
-                "49",
-                "50",
-                "51"
-            ]
+            "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"            
 
         },
         {
@@ -287,9 +47,7 @@
             "species": "Human",
             "gender": "Male",
             "status": "Dead",
-            "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
-            "origin": "Earth (Replacement Dimension)",
-            "episode": "24"
+            "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg"           
         },
         {
             "id": 7,
@@ -297,19 +55,15 @@
             "species": "Alien",
             "gender": "Male",
             "status": "unknown",
-            "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
-            "origin": "unknown",
-            "episode": "10"
-        },
+            "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+        }
         {
             "id": 8,
             "name": "Alien Rick",
             "species": "Alien",
             "gender": "Male",
             "status": "unknown",
-            "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
-            "origin": "unknown",
-            "episode": "10"
+            "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg"     
         },
         {
             "id": 9,
@@ -317,9 +71,7 @@
             "species": "Human",
             "gender": "Male",
             "status": "unknown",
-            "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
-            "origin": "unknown",
-            "episode": "8"
+            "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg"           
         },
         {
             "id": 10,
@@ -327,17 +79,7 @@
             "species": "Alien",
             "gender": "Male",
             "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/47.jpeg",
-            "origin": "Bird World",
-            "episode": [
-                "11",
-                "16",
-                "21",
-                "22",
-                "26",
-                "49",
-                "51"
-            ]
+            "image": "https://rickandmortyapi.com/api/character/avatar/47.jpeg"
         },
         {
             "id": 11,
@@ -345,9 +87,7 @@
             "species": "Alien",
             "gender": "Male",
             "status": "Dead",
-            "image": "https://rickandmortyapi.com/api/character/avatar/69.jpeg",
-            "origin": "unknown",
-            "episode": "22"
+            "image": "https://rickandmortyapi.com/api/character/avatar/69.jpeg"
         },
         {
             "id": 12,
@@ -355,9 +95,7 @@
             "species": "Alien",
             "gender": "Male",
             "status": "Dead",
-            "image": "https://rickandmortyapi.com/api/character/avatar/105.jpeg",
-            "origin": "unknown",
-            "episode": "19"
+            "image": "https://rickandmortyapi.com/api/character/avatar/105.jpeg"
         },
         {
             "id": 13,
@@ -365,13 +103,7 @@
             "species": "Human",
             "gender": "Male",
             "status": "Alive",
-            "image": "https://rickandmortyapi.com/api/character/avatar/118.jpeg",
-            "origin": "unknown",
-            "episode": [
-                "10",
-                "28",
-                "51"
-            ]
+            "image": "https://rickandmortyapi.com/api/character/avatar/118.jpeg"  
         },
         {
             "id": 14,
@@ -379,9 +111,7 @@
             "species": "Humanoid",
             "gender": "Male",
             "status": "Dead",
-            "image": "https://rickandmortyapi.com/api/character/avatar/119.jpeg",
-            "origin": "unknown",
-            "episode": "10"
+            "image": "https://rickandmortyapi.com/api/character/avatar/119.jpeg"  
         }
     ],
     "locations":[
@@ -429,6 +159,263 @@
             "type":"Planet",
             "dimension":"Replacement Dimension",
             "image": "./c137Earth.webp"
+        }
+    ],
+    "episodes": [
+        {
+            "id": 1,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 2,
+            "episode":"S01E02",
+            "name": "Lawnmower Dog"
+        },
+        {
+            "id": 3,
+            "episode":"S01E03",
+            "name": "Anatomy Park"
+        },
+        {
+            "id": 4,
+            "episode":"S01E04",
+            "name": "M. Night Shaym-Aliens!"
+        },
+        {
+            "id": 5,
+            "episode":"S01E05",
+            "name": "Meeseeks and Destroy"
+        },
+        {
+            "id": 6,
+            "episode":"S01E06",
+            "name": "Rick Potion #9"
+        },
+        {
+            "id": 7,
+            "episode":"S01E07",
+            "name": "Raising Gazorpazorp"
+        },
+        {
+            "id": 8,
+            "episode":"S01E08",
+            "name": "Rixty Minutes"
+        },
+        {
+            "id": 9,
+            "episode":"S01E09",
+            "name": "Something Ricked This Way Comes"
+        },
+        {
+            "id": 10,
+            "episode":"S01E10",
+            "name": "Close Rick-counters of the Rick Kind"
+        },
+        {
+            "id": 11,
+            "episode":"S01E11",
+            "name": "Ricksy Business"
+        },
+        {
+            "id": 12,
+            "episode":"S02E01",
+            "name": "A Rickle in Time"
+        },
+        {
+            "id": 13,
+            "episode":"S02E02",
+            "name": "Mortynight Run"
+        },
+        {
+            "id": 14,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 15,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 16,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 17,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 18,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 19,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 20,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 21,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 22,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 23,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 24,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 26,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 27,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 28,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 29,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 30,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 31,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 32,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 33,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 34,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 35,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 36,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 37,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 38,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 39,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 40,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 41,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 42,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 43,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 44,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 45,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 46,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 47,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 48,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 49,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 50,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 51,
+            "episode":"S01E01",
+            "name": "Pilot"
+        },
+        {
+            "id": 52,
+            "episode":"S01E01",
+            "name": "Pilot"
         }
     ]
 }

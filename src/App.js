@@ -10,6 +10,7 @@ import Header from "./Header";
 function App() {
   const [characters, setCharacters] = useState([]);
   const [locations, setLocations] = useState([]);
+  const [episodes, setEpisodes] = useState([]);
 
 
   useEffect(()=> {
@@ -23,6 +24,12 @@ function App() {
           .then(resp => resp.json())
           .then(locations => setLocations(locations))
       },[])
+
+      useEffect(()=> {
+        fetch("https://rickandmortyapi.com/api/episode")
+            .then(resp => resp.json())
+            .then(episodes => console.log(episodes))
+        },[])
 
       function handleAddNewCharacter(character){
         setCharacters({character, ...characters})
@@ -39,7 +46,7 @@ function App() {
           <LocationsContainer locations={locations} />
         </Route>
         <Route exact path="/Episodes">
-          <EpisodesContainer />
+          <EpisodesContainer episodes={episodes} />
         </Route>
     </div>
   );
