@@ -48,20 +48,49 @@ function App() {
           handleRemoveCharacter(id)
         }
       })
-    }
+      }
+
+      function handleAddNewLocation(location){
+        setLocations({location, ...locations})
+      }
+
+      function handleRemoveLocation(id) {
+        const updatedLocations = locations.filter(location => location.id !== id)
+        setlocations(updatedLocations)
+      }
+
+      function handleDeleteLocation(id) {
+        fetch(`http://localhost:3000/locations/${id}`, {
+          method: "DELETE",
+      }).then((resp)=> {
+        if(resp.status === 200) {
+          handleRemoveLocation(id)
+        }
+      })
+      }
 
   return (
     <div className="App">
         <Header />
         <NavBar />
         <Route exact path="/Characters">
-          <CharacterContainer handleAddNewCharacter={handleAddNewCharacter} characters={characters} handleDeleteCharacter={handleDeleteCharacter} />
+          <CharacterContainer 
+          handleAddNewCharacter={handleAddNewCharacter} 
+          characters={characters} 
+          handleDeleteCharacter={handleDeleteCharacter} 
+          />
         </Route>
         <Route exact path="/Episodes">
-          <EpisodesContainer episodes={episodes} />
+          <EpisodesContainer 
+          episodes={episodes} 
+          />
         </Route>
         <Route exact path="/Locations">
-          <LocationsContainer locations={locations} />
+          <LocationsContainer 
+          locations={locations}
+          handleAddNewLocation={handleAddNewLocation} 
+          handleDeleteLocation={handleDeleteLocation}
+          />
         </Route>
         
     </div>
