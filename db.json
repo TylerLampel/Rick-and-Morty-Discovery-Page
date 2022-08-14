@@ -319,108 +319,103 @@
         },
         {
             "id": 32,
-            "episode":"S03E10",
+            "episode":"S04E1",
             "name": "Edge of Tomorty: Rick, Die, Rickpeat"
         },
         {
             "id": 33,
-            "episode":"S01E01",
+            "episode":"S04E02",
             "name": "The Old Man and the Seat"
         },
         {
             "id": 34,
-            "episode":"S01E01",
+            "episode":"S04E03",
             "name": "One Crew Over the Crewcoo's Morty"
         },
         {
             "id": 35,
-            "episode":"S01E01",
+            "episode":"S04E04",
             "name": "Claw and Hoarder: Special Ricktim's Morty"
         },
         {
             "id": 36,
-            "episode":"S01E01",
+            "episode":"S04E05",
             "name": "Rattlestar Ricklactica"
         },
         {
             "id": 37,
-            "episode":"S01E01",
+            "episode":"S04E06",
             "name": "Never Ricking Morty"
         },
         {
             "id": 38,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S04E07",
+            "name": "Promortyus"
         },
         {
             "id": 39,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S04E08",
+            "name": "The Vat of Acid Episode"
         },
         {
             "id": 40,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S04E09",
+            "name": "Childrick of Mort"
         },
         {
             "id": 41,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S04E10",
+            "name": "Star Mort: Rickturn of the Jerri"
         },
         {
             "id": 42,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S05E01",
+            "name": "Mort Dinner Rick Andre"
         },
         {
             "id": 43,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S05E02",
+            "name": "Mortyplicity"
         },
         {
             "id": 44,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S05E03",
+            "name": "A Rickconvenient Mort"
         },
         {
             "id": 45,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S05E04",
+            "name": "Rickdependence Spray"
         },
         {
             "id": 46,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S05E05",
+            "name": "Amortycan Grickfitti"
         },
         {
             "id": 47,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S05E06",
+            "name": "Rick & Morty's Thanksploitation Spectacular"
         },
         {
             "id": 48,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S05E07",
+            "name": "Gotron Jerrysis Rickvangelion"
         },
         {
             "id": 49,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S05E08",
+            "name": "Rickternal Friendshine of the Spotless Mort"
         },
         {
             "id": 50,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S05E09",
+            "name": "Forgetting Sarick Mortshall"
         },
         {
             "id": 51,
-            "episode":"S01E01",
-            "name": "Pilot"
-        },
-        {
-            "id": 52,
-            "episode":"S01E01",
-            "name": "Pilot"
+            "episode":"S05E10",
+            "name": "Rickmurai Jack"
         }
     ]
 }
