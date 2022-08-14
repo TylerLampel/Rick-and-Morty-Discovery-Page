@@ -26,7 +26,7 @@ function App() {
       },[])
 
       useEffect(()=> {
-        fetch("https://rickandmortyapi.com/api/episode")
+        fetch("https://rickandmortyapi.com/api/episode?page=2")
             .then(resp => resp.json())
             .then(episodes => console.log(episodes))
         },[])
