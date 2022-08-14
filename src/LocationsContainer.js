@@ -1,20 +1,18 @@
 import React from "react";
-import {useEffect, useState} from "react";
 import LocationCard from "./LocationCard";
 
-function LocationsContainer() {
+function LocationsContainer({ locations }) {
 
-    const [locations, setLocations] = useState([])
 
-    useEffect(()=> {
-        fetch("https://rickandmortyapi.com/api/location")
-            .then(resp => resp.json())
-            .then(locations => console.log(locations))
-    },[])
-
+    const locationCards = locations.map((location) => (
+        <LocationCard
+            key={location.id}
+            location={location}
+        />
+    ))
 
     return (
-        <LocationCard locations= {locations} />
+        <div id="location-collection">{locationCards}</div>
     )
 }
 

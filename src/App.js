@@ -8,6 +8,7 @@ import LocationsContainer from "./LocationsContainer";
 
 function App() {
   const [characters, setCharacters] = useState([]);
+  const [locations, setLocations] = useState([]);
 
 
     useEffect(() => {
@@ -16,23 +17,27 @@ function App() {
         .then((characters) => setCharacters(characters))
     },[])
 
+    useEffect(()=> {
+      fetch("https://rickandmortyapi.com/api/location")
+          .then(resp => resp.json())
+          .then(locations => console.log(locations))
+  },[])
+
   return (
     <div className="App">
-      <Route path="/">
         <header>
           <img src= "./rick-morty-collection-banner_1400x.webp" />
         </header>
         <NavBar />
-      </Route>
-      <Route path="/Characters">
-        <CharacterContainer characters={characters} />
-      </Route>
-      <Route path="/Locations">
-        <LocationsContainer />
-      </Route>
-      <Route path="/Episodes">
-        <EpisodesContainer />
-      </Route>
+        <Route exact path="/Characters">
+          <CharacterContainer characters={characters} />
+        </Route>
+        <Route exact path="/Locations">
+          <LocationsContainer locations={locations} />
+        </Route>
+        <Route exact path="/Episodes">
+          <EpisodesContainer />
+        </Route>
     </div>
   );
 }

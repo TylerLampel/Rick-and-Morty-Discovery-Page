@@ -1,23 +1,68 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
+const linkStyles = {
+    display: "inline-block",
+    width: "80px",
+    padding: "12px",
+    margin: "0 6px 6px",
+    background: "blue",
+    textDecoration: "none",
+    color: "white",
+  };
 
 function NavBar() {
-    function navigate(e) {
-      e.preventDefault();
-      window.history.pushState(null, "", e.target.href);
-    }
-  
+
     return (
-      <nav>
-        <a href="/Characters" onClick={navigate}>
-          Characters
-        </a>
-        <a href="/Locations" onClick={navigate}>
-          Locations
-        </a>
-        <a href="/Episodes" onClick={navigate}>
-          Episodes
-        </a>
-      </nav>
+
+        <div>
+            <NavLink
+                to="/Characters"
+                exact
+                style={linkStyles}
+                activeStyle={{
+                    background: "darkblue",
+                }}
+            >
+                Characters
+            </NavLink>
+            <NavLink
+                to="/Locations"
+                exact
+                style={linkStyles}
+                activeStyle={{
+                    background: "darkblue",
+                }}
+            >
+                Locations
+            </NavLink>
+            <NavLink
+            to="/Locations"
+            exact
+            style={linkStyles}
+            activeStyle={{
+                background: "darkblue",
+            }}
+            >
+                Episodes
+            </NavLink>
+        </div>
+
+
+    //   <nav>
+    //     <a href="/" onClick= {navigate}>
+    //         Home
+    //     </a>
+    //     <a href="/Characters" onClick={navigate}>
+    //       Characters
+    //     </a>
+    //     <a href="/Locations" onClick={navigate}>
+    //       Locations
+    //     </a>
+    //     <a href="/Episodes" onClick={navigate}>
+    //       Episodes
+    //     </a>
+    //   </nav>
     );
   }
 
