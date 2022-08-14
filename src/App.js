@@ -1,8 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import './App.css';
-import './CharacterCard';
+import CharacterCard from "./CharacterCard";
 
 function App() {
+
+  const [characters, setCharacters] = useState([]);
+
+
+    fetch("http://localhost:3000/characters/")
+    .then((resp)=> resp.json())
+    .then((characters) => console.log(characters, "characters"))
 
   useEffect(()=> {
     fetch("https://rickandmortyapi.com/api/character")
@@ -13,8 +20,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CharacterCard/>
       </header>
+      <div>
+      <CharacterCard characters={characters}/>
+      </div>
     </div>
   );
 }
