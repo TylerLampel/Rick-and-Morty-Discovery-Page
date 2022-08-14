@@ -355,121 +355,121 @@
       "id": 32,
       "episode": "S04E1",
       "name": "Edge of Tomorty: Rick, Die, Rickpeat",
-      "image": ""
+      "image": "./s4e1.png"
     },
     {
       "id": 33,
       "episode": "S04E02",
       "name": "The Old Man and the Seat",
-      "image": ""
+      "image": "./s4e2.jpg"
     },
     {
       "id": 34,
       "episode": "S04E03",
       "name": "One Crew Over the Crewcoo's Morty",
-      "image": ""
+      "image": "./s4e3.webp"
     },
     {
       "id": 35,
       "episode": "S04E04",
       "name": "Claw and Hoarder: Special Ricktim's Morty",
-      "image": ""
+      "image": "./s4e4.webp"
     },
     {
       "id": 36,
       "episode": "S04E05",
       "name": "Rattlestar Ricklactica",
-      "image": ""
+      "image": "./s4e5.webp"
     },
     {
       "id": 37,
       "episode": "S04E06",
       "name": "Never Ricking Morty",
-      "image": ""
+      "image": "./s4e6.webp"
     },
     {
       "id": 38,
       "episode": "S04E07",
       "name": "Promortyus",
-      "image": ""
+      "image": "./s4e7.webp"
     },
     {
       "id": 39,
       "episode": "S04E08",
       "name": "The Vat of Acid Episode",
-      "image": ""
+      "image": "./s4e8.webp"
     },
     {
       "id": 40,
       "episode": "S04E09",
       "name": "Childrick of Mort",
-      "image": ""
+      "image": "./s4e9.jpg"
     },
     {
       "id": 41,
       "episode": "S04E10",
       "name": "Star Mort: Rickturn of the Jerri",
-      "image": ""
+      "image": "./s4e10.webp"
     },
     {
       "id": 42,
       "episode": "S05E01",
       "name": "Mort Dinner Rick Andre",
-      "image": ""
+      "image": "./s5e1.webp"
     },
     {
       "id": 43,
       "episode": "S05E02",
       "name": "Mortyplicity",
-      "image": ""
+      "image": "./s5e2.jpg"
     },
     {
       "id": 44,
       "episode": "S05E03",
       "name": "A Rickconvenient Mort",
-      "image": ""
+      "image": "./s5e3.jpg"
     },
     {
       "id": 45,
       "episode": "S05E04",
       "name": "Rickdependence Spray",
-      "image": ""
+      "image": "./s5e4.jpg"
     },
     {
       "id": 46,
       "episode": "S05E05",
       "name": "Amortycan Grickfitti",
-      "image": ""
+      "image": "./s5e5.webp"
     },
     {
       "id": 47,
       "episode": "S05E06",
       "name": "Rick & Morty's Thanksploitation Spectacular",
-      "image": ""
+      "image": "./s5e6.webp"
     },
     {
       "id": 48,
       "episode": "S05E07",
       "name": "Gotron Jerrysis Rickvangelion",
-      "image": ""
+      "image": "./s5e7.webp"
     },
     {
       "id": 49,
       "episode": "S05E08",
       "name": "Rickternal Friendshine of the Spotless Mort",
-      "image": ""
+      "image": "./s5e8.webp"
     },
     {
       "id": 50,
       "episode": "S05E09",
       "name": "Forgetting Sarick Mortshall",
-      "image": ""
+      "image": "./s5e9.jpg"
     },
     {
       "id": 51,
       "episode": "S05E10",
       "name": "Rickmurai Jack",
-      "image": ""
+      "image": "./s5e10.webp"
     }
   ]
 }
