@@ -26,9 +26,9 @@ function App() {
       },[])
 
       useEffect(()=> {
-        fetch("https://rickandmortyapi.com/api/episode?page=3")
+        fetch("http://localhost:3000/episodes/")
             .then(resp => resp.json())
-            .then(episodes => console.log(episodes))
+            .then(episodes => setEpisodes(episodes))
         },[])
 
       function handleAddNewCharacter(character){
