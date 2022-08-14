@@ -1,8 +1,9 @@
 import React from "react";
 
-function CharacterCard({characters}){
+function CharacterCard({ character }){
 
-    const [name, image] = characters
+    const { id, name, species, gender, status, image, origin, episode } = character
+
 
     return (
         <div>

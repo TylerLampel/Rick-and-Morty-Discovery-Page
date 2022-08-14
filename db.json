@@ -1,9 +1,3 @@
-
-
-
-
-
-
 {
     "characters": [
         {
@@ -388,6 +382,11 @@
             "image": "https://rickandmortyapi.com/api/character/avatar/119.jpeg",
             "origin": "unknown",
             "episode": "10"
+        }
+    ],
+    "locations":[
+        {
+            "id":1
         }
     ]
 }

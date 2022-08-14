@@ -1,22 +1,38 @@
 import React, { useEffect, useState } from "react";
+import { Route } from "react-router-dom";
 import './App.css';
-import CharacterCard from "./CharacterCard";
+import CharacterContainer from "./CharacterContainer";
+import NavBar from "./NavBar";
+import EpisodesContainer from "./EpisodesContainer";
+import LocationsContainer from "./LocationsContainer";
 
 function App() {
   const [characters, setCharacters] = useState([]);
 
 
-    fetch("http://localhost:3000/characters/")
-    .then((resp)=> resp.json())
-    .then((characters) => console.log(characters, "characters"))
+    useEffect(() => {
+      fetch("http://localhost:3000/characters/")
+        .then((resp)=> resp.json())
+        .then((characters) => setCharacters(characters))
+    },[])
 
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <div>
-      <CharacterCard characters={characters}/>
-      </div>
+      <Route path="/">
+        <header>
+          <img src= "./rick-morty-collection-banner_1400x.webp" />
+        </header>
+        <NavBar />
+      </Route>
+      <Route path="/Characters">
+        <CharacterContainer characters={characters} />
+      </Route>
+      <Route path="/Locations">
+        <LocationsContainer />
+      </Route>
+      <Route path="/Episodes">
+        <EpisodesContainer />
+      </Route>
     </div>
   );
 }
