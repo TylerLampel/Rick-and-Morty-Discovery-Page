@@ -1,4 +1,8 @@
 import React from "react";
+import { Button } from "@mui/material";
+import { Card } from "@mui/material";
+import CardMedia from "@mui/material/CardMedia";
+import { CardContent } from "@mui/material";
 
 function CharacterCard({ character, handleDeleteCharacter }){
 
@@ -6,22 +10,22 @@ function CharacterCard({ character, handleDeleteCharacter }){
 
 
     return (
-        <div>
-            <br />
-            <br />
-            
-            <img
-                src={image}
+        <Card sx={{ maxWidth: 500, maxHeight: 500 }}>
+            <CardMedia
+                component="img"
+                image={image}
+                height="300"
                 alt={name}
-                className="character-avatar"
             />
+            <CardContent>
             <h2>{name}</h2>
             <p>Gender: {gender}</p>
             <p>Species: {species}</p>
             <p>Status: {status}</p>
-                <br />
-            <button onClick= {() => handleDeleteCharacter(id)} className="del-btn">Delete Character</button>
-        </div>
+            </ CardContent>
+
+            <Button onClick= {() => handleDeleteCharacter(id)} className="del-btn">Delete Character</Button>
+        </Card>
     )
 }
 
