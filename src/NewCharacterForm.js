@@ -6,7 +6,7 @@ const initialState = {
     gender: "",
     species: "",
     status: "",
-  };
+};
 
 function NewCharacterForm({handleAddNewCharacter}) {
 
