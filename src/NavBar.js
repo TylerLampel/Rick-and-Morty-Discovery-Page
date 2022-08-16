@@ -47,22 +47,6 @@ function NavBar() {
                 Episodes
             </NavLink>
         </div>
-
-
-    //   <nav>
-    //     <a href="/" onClick= {navigate}>
-    //         Home
-    //     </a>
-    //     <a href="/Characters" onClick={navigate}>
-    //       Characters
-    //     </a>
-    //     <a href="/Locations" onClick={navigate}>
-    //       Locations
-    //     </a>
-    //     <a href="/Episodes" onClick={navigate}>
-    //       Episodes
-    //     </a>
-    //   </nav>
     );
   }
 
