@@ -12,7 +12,7 @@ function CharacterCard({ character, handleDeleteCharacter }){
 
 
     return (
-            <Grid item xs={3}>  
+            <Grid item xs={3} align= "center">  
                     <Card sx={{ maxWidth: 300, maxHeight: 800 }}>
                         <CardMedia
                             component="img"
