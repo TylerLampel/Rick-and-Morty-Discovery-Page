@@ -12,7 +12,7 @@ function LocationCard({ location, handleDeleteLocation }){
 
     return (
         <div>
-            <Grid item md={10}>
+            <Grid item md={10} align="center">
                 <Card sx={{ maxWidth: 300, maxHeight: 800 }}>
                     <CardMedia
                         component= "img"

@@ -18,7 +18,13 @@ function LocationsContainer({ locations, handleAddNewLocation, handleDeleteLocat
             <NewLocationForm handleAddNewLocation={handleAddNewLocation}/>
             <br />
             <br />
-            <Grid container rowSpacing={1} columnSpacing={{ xs:1, sm: 2, md: 3 }}>
+            <Grid 
+                container 
+                alignItems="center"
+                justifyContent="center"
+                rowSpacing={1} 
+                columnSpacing={{ xs:1, sm: 2, md: 3 }}
+            >
                 {locationCards}
             </ Grid>
             
