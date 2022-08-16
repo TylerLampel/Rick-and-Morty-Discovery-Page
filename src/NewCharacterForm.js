@@ -43,60 +43,60 @@ function NewCharacterForm({handleAddNewCharacter}) {
 
     return (
         <div className="container">
-      <form onSubmit={handleSubmit} className="add-character-form">
-        <h3>Add A New Character</h3>
-        <input
-          value={formData.name}
-          onChange={handleChange}
-          type="text"
-          name="name"
-          placeholder="Enter a character's name..."
-          className="input-text"
-        />
-        <br />
-        <input
-          value={formData.species}
-          onChange={handleChange}
-          type="text"
-          name="species"
-          placeholder="Enter a character's species"
-          className="input-text"
-        />
-        <br />
-        <input
-          value={formData.gender}
-          onChange={handleChange}
-          type="text"
-          name="gender"
-          placeholder="Enter a character's gender"
-          className="input-text"
-        />
-        <br />
-        <input
-          value={formData.status}
-          onChange={handleChange}
-          type="text"
-          name="status"
-          placeholder="Enter a character's status"
-          className="input-text"
-        />
-        <br />
-        <input
-          value={formData.image}
-          onChange={handleChange}
-          type="text"
-          name="image"
-          placeholder="Enter a character's image URL..."
-          className="input-text"
-        />
-        <br />
-        <input
-          type="submit"
-          name="submit"
-          value="Create New Character"
-          className="submit"
-        />
-      </form>
+          <form onSubmit={handleSubmit} className="add-character-form">
+            <h3>Add A New Character</h3>
+              <input
+                value={formData.name}
+                onChange={handleChange}
+                type="text"
+                name="name"
+                placeholder="Enter a character's name..."
+                className="input-text"
+              />
+              <br />
+              <input
+                value={formData.species}
+                onChange={handleChange}
+                type="text"
+                name="species"
+                placeholder="Enter a character's species"
+                className="input-text"
+              />
+              <br />
+              <input
+                value={formData.gender}
+                onChange={handleChange}
+                type="text"
+                name="gender"
+                placeholder="Enter a character's gender"
+                className="input-text"
+              />
+              <br />
+              <input
+                value={formData.status}
+                onChange={handleChange}
+                type="text"
+                name="status"
+                placeholder="Enter a character's status"
+                className="input-text"
+              />
+              <br />
+              <input
+                value={formData.image}
+                onChange={handleChange}
+                type="text"
+                name="image"
+                placeholder="Enter a character's image URL..."
+                className="input-text"
+              />
+              <br />
+              <input
+                type="submit"
+                name="submit"
+                value="Create New Character"
+                className="submit"
+              />
+        </form>
     </div>
     )
 

@@ -75,24 +75,23 @@ function App() {
         <NavBar />
         <Route exact path="/Characters">
           <CharacterContainer 
-          characters={characters}
-          handleAddNewCharacter={handleAddNewCharacter}  
-          handleDeleteCharacter={handleDeleteCharacter}
+            characters={characters}
+            handleAddNewCharacter={handleAddNewCharacter}  
+            handleDeleteCharacter={handleDeleteCharacter}
           />
         </Route>
         <Route exact path="/Episodes">
           <EpisodesContainer 
-          episodes={episodes} 
-          />
+            episodes={episodes} 
+        />
         </Route>
         <Route exact path="/Locations">
           <LocationsContainer 
-          locations={locations}
-          handleAddNewLocation={handleAddNewLocation} 
-          handleDeleteLocation={handleDeleteLocation}
+            locations={locations}
+            handleAddNewLocation={handleAddNewLocation} 
+            handleDeleteLocation={handleDeleteLocation}
           />
-        </Route>
-        
+        </Route>        
     </div>
   );
 }

@@ -7,8 +7,6 @@ import { Grid } from "@mui/material";
 
 function CharacterContainer({ characters, handleAddNewCharacter, handleDeleteCharacter }) {
 
-    console.log(typeof(characters))
-
     const characterCards = characters.map((character) => (
             <CharacterCard
                 key={character.id}
@@ -19,18 +17,18 @@ function CharacterContainer({ characters, handleAddNewCharacter, handleDeleteCha
 
     return (
         <div id="character-collection" >
-                <NewCharacterForm handleAddNewCharacter={handleAddNewCharacter}/>
-                <br />
-                <br />
-                <Grid 
-                    container
-                    alignItems="center"
-                    justifyContent="center"
-                    rowSpacing={3} 
-                    columnSpacing={{xs: 1 }}
-                >
-                    {characterCards}
-                </ Grid>
+            <NewCharacterForm handleAddNewCharacter={handleAddNewCharacter}/>
+            <br />
+            <br />
+            <Grid 
+                container
+                alignItems="center"
+                justifyContent="center"
+                rowSpacing={3} 
+                columnSpacing={{xs: 1 }}
+            >
+                {characterCards}
+            </ Grid>
         </div>
     )
     
