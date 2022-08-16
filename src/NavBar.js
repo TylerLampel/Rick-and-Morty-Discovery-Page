@@ -21,6 +21,7 @@ function NavBar() {
                 exact
                 style={linkStyles}
                 activeStyle={{
+                    fontWeight: "bold",
                     background: "darkblue",
                 }}
             >
@@ -31,6 +32,7 @@ function NavBar() {
                 exact
                 style={linkStyles}
                 activeStyle={{
+                    fontWeight: "bold",
                     background: "darkblue",
                 }}
             >
@@ -41,6 +43,7 @@ function NavBar() {
             exact
             style={linkStyles}
             activeStyle={{
+                fontWeight: "bold",
                 background: "darkblue",
             }}
             >
