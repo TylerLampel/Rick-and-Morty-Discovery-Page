@@ -13,7 +13,12 @@ function EpisodesContainer({ episodes }) {
 
     return(
         <div id="episode-collection">
-            <Grid container rowSpacing={3} columnSpacing={{ xs:1, sm: 2, md: 3 }}>
+            <Grid 
+            container 
+            alignItems="center"
+            justifyContent="center"
+            rowSpacing={3} 
+            columnSpacing={{ xs:1, sm: 2, md: 3 }}>
                 {episodeCards}
             </ Grid>   
         </div>

@@ -11,8 +11,8 @@ function EpisodeCard({ episode }){
         <div>
             <br />
             <br />
-            <Grid item xs={10}>
-                <Card sx={{ maxWidth: 350, maxHeight: 800 }}>
+            <Grid item xs={10} align="center">
+                <Card sx={{ maxWidth: 350, maxHeight: 800 }} >
                     <CardMedia 
                         component= "img" 
                         image={episode.image} 
