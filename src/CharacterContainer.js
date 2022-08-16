@@ -1,8 +1,13 @@
 import React from "react";
 import CharacterCard from "./CharacterCard";
 import NewCharacterForm from "./NewCharacterForm";
+import { Grid } from "@mui/material";
+
+
 
 function CharacterContainer({ characters, handleAddNewCharacter, handleDeleteCharacter }) {
+
+    console.log(typeof(characters))
 
     const characterCards = characters.map((character) => (
             <CharacterCard
@@ -13,9 +18,13 @@ function CharacterContainer({ characters, handleAddNewCharacter, handleDeleteCha
     ))
 
     return (
-        <div id="character-collection">
+        <div>
                 <NewCharacterForm handleAddNewCharacter={handleAddNewCharacter}/>
-            {characterCards}
+                <br />
+                <br />
+                <Grid id="character-collection" container rowSpacing={3} columnSpacing={{ xs:1, sm: 2, md: 3 }}>
+                    {characterCards}
+                </ Grid>
         </div>
     )
     

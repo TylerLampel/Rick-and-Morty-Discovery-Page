@@ -14,19 +14,19 @@ function App() {
 
 
   useEffect(()=> {
-      fetch("http://localhost:3000/characters/")
+      fetch("http://localhost:3000/characters")
         .then((resp)=> resp.json())
         .then((characters) => setCharacters(characters))
       },[])
 
       useEffect(()=> {
-      fetch("http://localhost:3000/locations/")
+      fetch("http://localhost:3000/locations")
           .then(resp => resp.json())
           .then(locations => setLocations(locations))
       },[])
 
       useEffect(()=> {
-        fetch("http://localhost:3000/episodes/")
+        fetch("http://localhost:3000/episodes")
             .then(resp => resp.json())
             .then(episodes => setEpisodes(episodes))
         },[])
@@ -75,9 +75,9 @@ function App() {
         <NavBar />
         <Route exact path="/Characters">
           <CharacterContainer 
-          handleAddNewCharacter={handleAddNewCharacter} 
-          characters={characters} 
-          handleDeleteCharacter={handleDeleteCharacter} 
+          characters={characters}
+          handleAddNewCharacter={handleAddNewCharacter}  
+          handleDeleteCharacter={handleDeleteCharacter}
           />
         </Route>
         <Route exact path="/Episodes">

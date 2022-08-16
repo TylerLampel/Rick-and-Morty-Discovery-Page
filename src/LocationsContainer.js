@@ -1,6 +1,7 @@
 import React from "react";
 import LocationCard from "./LocationCard";
 import NewLocationForm from "./NewLocationForm";
+import { Grid } from "@mui/material";
 
 function LocationsContainer({ locations, handleAddNewLocation, handleDeleteLocation }) {
 
@@ -15,7 +16,12 @@ function LocationsContainer({ locations, handleAddNewLocation, handleDeleteLocat
     return (
         <div id="location-collection">
             <NewLocationForm handleAddNewLocation={handleAddNewLocation}/>
-            {locationCards}
+            <br />
+            <br />
+            <Grid container rowSpacing={1} columnSpacing={{ xs:1, sm: 2, md: 3 }}>
+                {locationCards}
+            </ Grid>
+            
             </div>
     )
 }

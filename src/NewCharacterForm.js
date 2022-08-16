@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 const initialState = {
     name: "",
-    image: "",
-    gender: "",
     species: "",
+    gender: "",
     status: "",
+    image: ""
 };
 
 function NewCharacterForm({handleAddNewCharacter}) {
@@ -55,11 +55,11 @@ function NewCharacterForm({handleAddNewCharacter}) {
         />
         <br />
         <input
-          value={formData.image}
+          value={formData.species}
           onChange={handleChange}
           type="text"
-          name="image"
-          placeholder="Enter a character's image URL..."
+          name="species"
+          placeholder="Enter a character's species"
           className="input-text"
         />
         <br />
@@ -73,20 +73,20 @@ function NewCharacterForm({handleAddNewCharacter}) {
         />
         <br />
         <input
-          value={formData.species}
-          onChange={handleChange}
-          type="text"
-          name="species"
-          placeholder="Enter a character's species"
-          className="input-text"
-        />
-        <br />
-        <input
           value={formData.status}
           onChange={handleChange}
           type="text"
           name="status"
           placeholder="Enter a character's status"
+          className="input-text"
+        />
+        <br />
+        <input
+          value={formData.image}
+          onChange={handleChange}
+          type="text"
+          name="image"
+          placeholder="Enter a character's image URL..."
           className="input-text"
         />
         <br />

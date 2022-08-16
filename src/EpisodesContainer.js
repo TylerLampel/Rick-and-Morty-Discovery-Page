@@ -1,5 +1,6 @@
 import React from "react";
 import EpisodeCard from "./EpisodeCard";
+import { Grid } from "@mui/material";
 
 function EpisodesContainer({ episodes }) {
 
@@ -11,8 +12,10 @@ function EpisodesContainer({ episodes }) {
     ))
 
     return(
-        <div>
-            <div id="episode-collection">{episodeCards}</div>
+        <div id="episode-collection">
+            <Grid container rowSpacing={3} columnSpacing={{ xs:1, sm: 2, md: 3 }}>
+                {episodeCards}
+            </ Grid>   
         </div>
     )
 }
