@@ -6,6 +6,7 @@ import { Grid } from "@mui/material";
 
 
 function CharacterContainer({ characters, handleAddNewCharacter, handleDeleteCharacter }) {
+    
 
     const characterCards = characters.map((character) => (
             <CharacterCard
@@ -14,6 +15,7 @@ function CharacterContainer({ characters, handleAddNewCharacter, handleDeleteCha
                 handleDeleteCharacter={handleDeleteCharacter}
             />
     ))
+    
 
     return (
         <div id="character-collection" >

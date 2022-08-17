@@ -18,6 +18,7 @@ function App() {
         .then((resp)=> resp.json())
         .then((characters) => setCharacters(characters))
       },[])
+      
 
       useEffect(()=> {
       fetch("http://localhost:3000/locations")
@@ -32,7 +33,7 @@ function App() {
         },[])
 
       function handleAddNewCharacter(character){
-        setCharacters({character, ...characters})
+        setCharacters([{character}, ...characters])
       }
 
       function handleRemoveCharacter(id) {
@@ -51,7 +52,7 @@ function App() {
       }
 
       function handleAddNewLocation(location){
-        setLocations({location, ...locations})
+        setLocations([{location}, ...locations])
       }
 
       function handleRemoveLocation(id) {
