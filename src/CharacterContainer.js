@@ -10,7 +10,7 @@ function CharacterContainer({ characters, handleAddNewCharacter, handleDeleteCha
 
     const characterCards = characters.map((character) => (
             <CharacterCard
-                key={character.id}
+                key={character["id"]}
                 character={character}
                 handleDeleteCharacter={handleDeleteCharacter}
             />

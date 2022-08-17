@@ -111,6 +111,14 @@
       "gender": "Male",
       "status": "Dead",
       "image": "https://rickandmortyapi.com/api/character/avatar/119.jpeg"
+    },
+    {
+      "name": "Tyler David Lampel",
+      "species": "Human",
+      "gender": "Male",
+      "status": "Alive",
+      "image": "asd",
+      "id": 15
     }
   ],
   "locations": [

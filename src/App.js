@@ -17,14 +17,14 @@ function App() {
       fetch("http://localhost:3000/characters")
         .then((resp)=> resp.json())
         .then((characters) => setCharacters(characters))
-      },[])
+      },[characters])
       
 
       useEffect(()=> {
       fetch("http://localhost:3000/locations")
           .then(resp => resp.json())
           .then(locations => setLocations(locations))
-      },[])
+      },[locations])
 
       useEffect(()=> {
         fetch("http://localhost:3000/episodes")
