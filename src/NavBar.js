@@ -17,7 +17,7 @@ function NavBar() {
 
         <div>
             <NavLink
-                to="/Characters"
+                to="/"
                 exact
                 style={linkStyles}
                 activeStyle={{

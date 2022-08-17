@@ -73,7 +73,7 @@ function App() {
     <div className="App">
         <Header />
         <NavBar />
-        <Route exact path="/Characters">
+        <Route exact path="/">
           <CharacterContainer 
             characters={characters}
             handleAddNewCharacter={handleAddNewCharacter}  
