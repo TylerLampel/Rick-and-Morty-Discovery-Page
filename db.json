@@ -105,20 +105,12 @@
       "image": "https://rickandmortyapi.com/api/character/avatar/118.jpeg"
     },
     {
-      "id": 14,
-      "name": "Evil Rick",
-      "species": "Humanoid",
-      "gender": "Male",
-      "status": "Dead",
-      "image": "https://rickandmortyapi.com/api/character/avatar/119.jpeg"
-    },
-    {
-      "name": "Tyler David Lampel",
-      "species": "Human",
-      "gender": "Male",
-      "status": "Alive",
-      "image": "asd",
-      "id": 15
+      "name": "Tyler Lampel",
+      "species": "",
+      "gender": "",
+      "status": "",
+      "image": "",
+      "id": 14
     }
   ],
   "locations": [
