@@ -1,15 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import CharacterCard from "./CharacterCard";
 import NewCharacterForm from "./NewCharacterForm";
 import { Grid } from "@mui/material";
 
-// two buttons, male and female. when clicked show  only that gender
-
-// add two buttons
-// filter characters array in app pass down filteredCharacters
-// filter characters to only show male/female
-
 function CharacterContainer({
+  searchBy,
+  setSearchBy,
+  setFilter,
   characters,
   handleAddNewCharacter,
   handleDeleteCharacter,
@@ -22,14 +19,33 @@ function CharacterContainer({
     />
   ));
 
-  function handleClick() {}
+  function handleClick(e) {
+    setFilter(e.target.value);
+  }
+
+  function handleChange(e) {
+    setSearchBy(e.target.value);
+  }
 
   return (
     <div id="character-collection">
+      <input
+        placeholder="search"
+        value={searchBy}
+        onChange={handleChange}
+      ></input>
       <NewCharacterForm handleAddNewCharacter={handleAddNewCharacter} />
       <br />
-      <button onClick={handleClick}>Male</button>
-      <button onClick={handleClick}>Female</button>
+      <button onClick={handleClick} value="Male">
+        Male
+      </button>
+      <button onClick={handleClick} value="Female">
+        Female
+      </button>
+      <button onClick={handleClick} value="All">
+        All
+      </button>
+      <br />
       <br />
       <Grid
         container

@@ -7,22 +7,34 @@ import EpisodesContainer from "./EpisodesContainer";
 import LocationsContainer from "./LocationsContainer";
 import Header from "./Header";
 
+// search state in app
+// pass search
+// searchby state in characters - pass search by up to search
+// filter characters by search
+// setCharacters to filteredsearch
+
 function App() {
   const [characters, setCharacters] = useState([]);
   const [locations, setLocations] = useState([]);
   const [episodes, setEpisodes] = useState([]);
-
-  // useEffect, useState, referencing a variable, destructuring
+  const [filter, setFilter] = useState("All");
+  const [searchBy, setSearchBy] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:3000/characters")
       .then((resp) => resp.json())
       .then((characters) => {
         setCharacters(characters);
-        console.log("string");
       });
   }, []);
-  console.log(characters);
+
+  const filteredArray = characters.filter((character) => {
+    if (character.name.toLowerCase().includes(searchBy.toLowerCase())) {
+      if (filter === "All") return true;
+      if (character.gender === filter) return true;
+    }
+    return false;
+  });
 
   useEffect(() => {
     fetch("http://localhost:3000/locations")
@@ -37,7 +49,6 @@ function App() {
   }, []);
 
   function handleAddNewCharacter(character) {
-    console.log(character, "character");
     setCharacters([...characters, character]);
   }
 
@@ -63,7 +74,7 @@ function App() {
   }
 
   function handleRemoveLocation(id) {
-    const updatedLocations = locations.filter((location) => location.id !== id);
+    const updatedLocations = locations.filter((location) => location.id === id);
     setLocations(updatedLocations);
   }
 
@@ -84,7 +95,11 @@ function App() {
 
       <Route exact path="/">
         <CharacterContainer
-          characters={characters}
+          searchBy={searchBy}
+          setSearchBy={setSearchBy}
+          filter={filter}
+          setFilter={setFilter}
+          characters={filteredArray}
           handleAddNewCharacter={handleAddNewCharacter}
           handleDeleteCharacter={handleDeleteCharacter}
         />
